@@ -42,6 +42,33 @@ int main()
 		printf("the variables are not equaal");
 	}
 	*/
+	
+	//dauy two
+	/*char name[]="ivan";
+	char country[]="uganda";
+	int country_code=256;
+	float a = 100.24;
+	float b = 200.89;
+	
+
+	printf("i am %s ,am from %s , my country_code is %d and my weight is %f",name,country, country_code,(a+b));
+	*/
+	
+	//conditionals in c programming
+	
+	
+	//	char name[]="256";
+	//	printf("%s",name
+	//	);
+		
+	int a=20 , h=100;
+	if(a>=h)
+	{
+		printf("a is eequal to h");
+	}
+	else{
+		printf("they are not equal");
+	}
 return 0;
 
 }
