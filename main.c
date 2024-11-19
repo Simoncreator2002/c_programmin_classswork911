@@ -126,6 +126,7 @@ int main()
 		printf("no such a day of the weeek");
 	}
 	*/
+	/*
 	
 int x= 30;
 	if (x>=90)
@@ -152,10 +153,14 @@ else{
 	}
 
 	
+	*/
 	
 	
-	
-	
+	int x=48;
+	if(x>=40&&x<=50)
+	{
+		printf("hello uganda");
+	}
 	
 return 0;
 
