@@ -61,6 +61,7 @@ int main()
 	//	printf("%s",name
 	//	);
 		
+	/*	
 	int a=20 , h=100;
 	if(a>=h)
 	{
@@ -68,7 +69,94 @@ int main()
 	}
 	else{
 		printf("they are not equal");
+	}  */
+	
+	
+	//day three
+/*
+	int score=95;
+	if(score>80)
+	{
+		printf("your grade is a high distinction");
+		
 	}
+	else
+	{
+		printf("your grade is a pass");
+	}
+	*/
+	/*
+	int x=20;
+	if(x>=90)
+	{
+	printf("hiogh distinction");	
+	}
+	else if(x>=80)
+	
+	{
+		printf("distinction");
+	}
+	else if(x>=60)
+	{
+		printf("credit");
+	}
+	else if(x>=50)
+	{
+		printf("pass");
+	}
+	else
+	{
+		printf("fail");
+	}
+	*/
+	
+	//switch statement
+
+/*
+	int k =96;
+	switch(k)
+	{
+		case 1:
+		printf("today is monday");
+		case 2:
+		printf("today is tuesday");
+		case 3:
+		printf("today is wednesday");
+		default:
+		printf("no such a day of the weeek");
+	}
+	*/
+	
+int x= 30;
+	if (x>=90)
+	{
+		printf("this is a high distinction");
+	
+	if(x>=80)
+	{
+		printf("distinction");
+		if(x>=60)
+		{
+			printf("credit");
+			if(x>=50)
+			{
+				printf("pass");
+			
+				
+			}
+		}
+	}
+}
+else{
+	printf("fail");	
+	}
+
+	
+	
+	
+	
+	
+	
 return 0;
 
 }
