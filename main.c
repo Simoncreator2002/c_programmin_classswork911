@@ -155,13 +155,54 @@ else{
 	
 	*/
 	
-	
+	/*
 	int x=48;
 	if(x>=40&&x<=50)
 	{
 		printf("hello uganda");
+		
 	}
+	*/
+	///day four
+	/*
+	int age;
 	
+	printf("please input your age:");
+	
+	scanf("%d",&age);
+	
+	if(age>60)
+	{
+		printf("your old");
+		
+	}
+	else if(age>=18 && age<=60)
+	{
+		printf("your an adult");
+	}
+	else{
+		printf("your a kid ");
+	}*/
+	int x=90;
+	if(x>=18&&x<=60)
+	{
+		printf("this is an adult person");
+	
+		if(x==5)
+		{
+			printf("plate");
+		}
+		else 
+		{
+			printf("your an old person");
+		}
+
+    }
+	else
+	{
+		printf("this is a child");
+	}
+
 return 0;
 
 }
