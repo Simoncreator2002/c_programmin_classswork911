@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdbool.h>
+#include <math.h>
 int main()
 {
 	//first git session
@@ -183,6 +184,7 @@ else{
 	else{
 		printf("your a kid ");
 	}*/
+/*
 	int x=90;
 	if(x>=18&&x<=60)
 	{
@@ -202,6 +204,62 @@ else{
 	{
 		printf("this is a child");
 	}
+*/
+/*
+int i=1;
+int  num1=0,num2=2;
+while(num2<100){
+int sum=num1+num2;
+printf("the sum of %d and %d is %d \n",num1,num2,sum);
+num2=num2+2;
+num1++;
+
+}
+*/
+/*int i=0;
+while(i<5){
+  int k= pow(3, i);
+  printf("3 raised to the power of %d is %d\n", i,k);
+i++;
+}
+*/
+/*
+int i=0;
+while(i<13){
+  int k=i*3;
+  printf(" %d times is %d \n",i,k);
+i++;
+}*/
+
+
+/// how to print power of three without the math header file
+/*
+int i=2;
+while(i<24)
+{
+	printf ("the powers of 2 are %d\n",i);
+	i=i*2;
+}
+*/
+
+//do while
+int x, y, sum;
+x=0,y=0;
+do
+{
+	sum=x+y;
+	printf("the sum of %d and %d is %d\n ",x,y,sum);
+	x++;
+}
+while(sum<=10);
+
+
+
+
+
+
+
+
 
 return 0;
 
