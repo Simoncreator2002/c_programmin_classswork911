@@ -243,6 +243,7 @@ while(i<24)
 */
 
 //do while
+/*
 int x, y, sum;
 x=0,y=0;
 do
@@ -253,11 +254,33 @@ do
 }
 while(sum<=10);
 
+*/
+/*
+int i=0;
+int	x;
+do
+{
+	x=i*3;
+	printf("%d\n",x);
+	i++;
+	
 
-
-
-
-
+}
+while(x<16); m  
+*/
+/*
+int x;
+int i;
+for(i=0;i<6;i++)
+{
+	x=i*3;
+	printf("%d\n",x);
+}
+*/
+char name[50];
+printf("please enter your full name\n");
+scanf("%s",&name);
+printf("%s",name);
 
 
 
