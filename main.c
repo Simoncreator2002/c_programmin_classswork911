@@ -294,9 +294,9 @@ printf("%s",name);*/
         }
     }
 */
-void nationality()
+void nationality(int age)
 {
-	printf("am ugandan");
+	printf("am %d years old",age);
 }
 void display()
 {
@@ -306,7 +306,7 @@ int main()
 {
 	printf("my name is simon\n");
 	display();
-	nationality();
+	nationality(78);
 	return 0;
 }
 
