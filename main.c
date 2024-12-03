@@ -294,9 +294,10 @@ printf("%s",name);*/
         }
     }
 */
-void nationality(int age)
+void nationality(int age, int student_number,char name[])
 {
-	printf("am %d years old",age);
+	printf("i live in %s\n",name);
+	printf("am %d years old and have a student number of%d",age,student_number);
 }
 void display()
 {
@@ -306,7 +307,7 @@ int main()
 {
 	printf("my name is simon\n");
 	display();
-	nationality(78);
+	nationality(78,123434,"enttebe");
 	return 0;
 }
 
