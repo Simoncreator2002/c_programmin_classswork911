@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdbool.h>
 #include <math.h>
+/*
 int main()
 {
 	//first git session
@@ -277,13 +278,38 @@ for(i=0;i<6;i++)
 	printf("%d\n",x);
 }
 */
+/*
 char name[50];
 printf("please enter your full name\n");
 scanf("%s",&name);
-printf("%s",name);
+printf("%s",name);*/
+  /*
+    int i, j;
+    for(i = 0; i <= 2; ++i) {
+        printf("Outer loop: %d\n", i);
 
-
-
-return 0;
-
+        // Initialize j here for the inner loop
+        for(j = 1; j <= 3; ++j) {
+            printf("Inner loop: %d\n", j);
+        }
+    }
+*/
+void nationality()
+{
+	printf("am ugandan");
 }
+void display()
+{
+	printf("am at isbat university\n");
+}
+int main()
+{
+	printf("my name is simon\n");
+	display();
+	nationality();
+	return 0;
+}
+
+
+
+
