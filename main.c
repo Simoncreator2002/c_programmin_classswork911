@@ -294,6 +294,7 @@ printf("%s",name);*/
         }
     }
 */
+/*
 void info();
 int display();
 
@@ -323,4 +324,42 @@ int display(int k, int y)
 
 }
 
+*/
+/*
+char *label();
+double sum();
+int main()
+{
+    
 
+	printf("my name is %s \n",label("simon"));
+	printf("the sum  is %.2f \n",sum(3.2,4.2));
+	return 0;
+}
+char *label(char name1[])
+{
+	return name1;
+}
+double sum(double k , double l)
+{
+	
+	 return k+l;
+}
+*/
+int main()
+{
+	char name[50];
+	int x[50];
+	name[50]="isbat";
+	
+	int i;
+	int x_array[]={1,2,3,4,5,10};
+	for(i=0;i<=5;i++)
+	{
+		printf("%d \n",x_array[i]);
+	}
+	
+	return 0;
+	
+	
+}
