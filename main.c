@@ -294,23 +294,33 @@ printf("%s",name);*/
         }
     }
 */
-void nationality(int age, int student_number,char name[])
-{
-	printf("i live in %s\n",name);
-	printf("am %d years old and have a student number of%d",age,student_number);
-}
-void display()
-{
-	printf("am at isbat university\n");
-}
+void info();
+int display();
+
 int main()
 {
-	printf("my name is simon\n");
-	display();
-	nationality(78,123434,"enttebe");
+	int i=0;
+	while(i<2)
+	{
+	
+    printf("the sum  is %d \n",display(10,02));
+	info(122334,"simon");
+	i++;
+}
+
 	return 0;
 }
 
+void info(int student_number,char name[])
+{
+	printf("my name is %s \n",name);
+	printf(" my student number is %d \n",student_number);
+}
+int display(int k, int y)
+{
+	int sum =y+k;
+	return sum;
 
+}
 
 
